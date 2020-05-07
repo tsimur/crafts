@@ -24,6 +24,6 @@ $ !1581:p
 ```
 
 ```
-bash: P: unrecognized history modifier
+docker ps
 ```
 ###### to be continued
