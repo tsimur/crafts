@@ -1,5 +1,5 @@
-# Terminal cheat sheet
-This cheat sheet ontain original solutions for terminal work, wich was not which were not obvious before I discovered them for myself.
+# Terminal notes
+These notes contain examples of working with the terminal that I found useful for myself.
 ## Copy file from other folder to current folder
 ```bash
 cp ~/Desktop/swop.sh .
@@ -8,5 +8,11 @@ cp ~/Desktop/swop.sh .
 ```$_``` is a special parameter that holds the last argument of the previous command. The quote around $_ make sure it works even if the folder name contains spaces.
 ```bash
 mkdir ../notes && cd "$_"
+```
+## Another user folder
+To access another user's folder, you can use the following expression. This is especially convenient when the location of the user's folder is unknown.
+
+```bash
+cd ~jenkins/
 ```
 ###### to be continued
