@@ -15,4 +15,15 @@ To access another user's folder, you can use the following expression. This is e
 ```bash
 cd ~jenkins/
 ```
+
+## Сall сommand by number from the terminal history without executing.
+Use the up arrow key to edit command before use.
+
+```bash
+$ !1581:p
+```
+
+```
+bash: P: unrecognized history modifier
+```
 ###### to be continued
