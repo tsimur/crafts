@@ -98,10 +98,5 @@ fi
 
 
 
-####### add to script ##########
-# parametrs (screen resolutions, keywords)
+####### to do ##########
 # make help multyline
-# --help parametr list, exempls
-# hints generally and hints if something went wrong
-# exit codes
-# smiles
