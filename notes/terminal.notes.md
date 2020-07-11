@@ -1,5 +1,4 @@
 # Terminal notes
-These notes contain examples of working with the terminal that I found useful for myself.
 ## Copy file from other folder to current folder
 ```bash
 cp ~/Desktop/swop.sh .
