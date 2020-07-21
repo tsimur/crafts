@@ -31,4 +31,12 @@ docker ps
 apt-get -f install
 ```
 
+## Get info from dhcp server 
+
+```bash
+sudo nmap --script broadcast-dhcp-discover -e enp0s3
+```
+
+
+
 ###### to be continued
