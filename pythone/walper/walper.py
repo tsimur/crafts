@@ -9,7 +9,7 @@ def generate_image_url(resolution_w=1920, resolution_h=1080, search_keywords='ci
     return download_url
 
 
-def save_path_generate(keywords='city,bus', folder_path='/home/tsimur/testpyd/'):
+def generate_save_path(keywords='city,bus', folder_path='/home/tsimur/testpyd/'):
     now = datetime.now()
     current_time = now.strftime("%H-%M-%S")
     current_date = now.date()
@@ -28,5 +28,5 @@ def set_walper(path_to_image):
 
 
 keywords = 'forest,lake'
-image_path = save_path_generate(keywords)
+image_path = generate_save_path(keywords)
 download_image(generate_image_url(1920, 1080, keywords), image_path), set_walper(image_path)
